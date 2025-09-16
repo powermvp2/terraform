@@ -41,12 +41,12 @@ resource "aws_lb_listener" "terraform-prd-listener" {
 }
 
 ##### target group attachment
-/*
+
 resource "aws_lb_target_group_attachment" "terraform-prd-tg-attachment1" {
     target_group_arn = aws_lb_target_group.terraform-prd-tg.arn
     target_id = aws_instance.terraform-pub-ec2-bastion-2a.id
     port = 80
   
 }
-*/
+
 
