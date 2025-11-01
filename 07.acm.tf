@@ -1,6 +1,6 @@
 # 인증서 생성
 resource "aws_acm_certificate" "vec_prd_cert" {
-  domain_name       = "*.powermvp2.shop"
+  domain_name       = "powermvp2.shop"
   validation_method = "DNS"
 
   tags = {
