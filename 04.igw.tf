@@ -1,6 +1,7 @@
-resource "aws_internet_gateway" "vec_prd_igw" {
-  vpc_id = aws_vpc.vec_prd_vpc.id
+resource "aws_internet_gateway" "terraform-igw" {
+  vpc_id = aws_vpc.terraform-vpc.id
   tags = {
-    "Name" = "VEC-PRD-IGW"
+    "Name" = "terraform-igw"
   }
+
 }
